@@ -15,22 +15,28 @@
     .brand-logo{width:110px;height:72px;flex:none;object-fit:contain;border-radius:8px}.footer-logo-wrap{display:inline-flex;align-items:center;justify-content:center;background:#fff;border-radius:10px;padding:14px;margin-bottom:16px;max-width:100%}.footer-logo{display:block;width:180px;height:110px;max-width:100%;object-fit:contain}.brand-mark[hidden],.footer-fallback[hidden]{display:none}.footer-fallback{width:72px;height:72px}.catalog-card{scroll-margin-top:96px}.service-gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;padding:0 28px 28px}.gallery-slot{min-height:150px;border:2px dashed #b6c8d9;border-radius:8px;background:#f6f8fb;color:#526173;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;text-align:center;font-size:14px;font-weight:800}.gallery-slot small{font-size:11px;font-weight:500}.gallery-slot:has(img){padding:0;border:0;overflow:hidden}.gallery-slot img{display:block;width:100%;height:100%;min-height:150px;object-fit:cover}.gallery-symbol{font-size:28px;color:#8099b0}@media(max-width:700px){.service-gallery{grid-template-columns:1fr;padding:0 18px 18px}.gallery-slot{min-height:110px}}
     @media(max-width:900px){.nav{gap:14px}.nav a{font-size:11px}.brand-name{max-width:190px;font-size:13px}.trust-grid,.contact-layout,.mission-grid{grid-template-columns:1fr}.footer-grid{grid-template-columns:1fr 1fr}.catalog-top{grid-template-columns:40% 1fr}}
     @media(max-width:700px){.brand-logo{width:78px;height:56px}.container{width:min(100% - 32px,1180px)}.topline .container{justify-content:center}.topline span:last-child{display:none}.navrow{min-height:68px;gap:12px}.brand-name{font-size:12px}.brand-mark{width:37px;height:37px;font-size:23px}.menu-toggle{display:block}.nav{display:none;position:absolute;top:100%;left:0;right:0;background:white;box-shadow:0 12px 22px #09203820;padding:16px 24px;flex-direction:column;align-items:stretch;gap:0}.nav.open{display:flex}.nav a{font-size:14px;padding:12px 0;border-bottom:1px solid #edf1f5}.language{margin-left:auto}.hero{min-height:630px;height:auto}.hero-content{padding:98px 0 110px}.hero h1{font-size:clamp(37px,10vw,58px)}.section{padding:65px 0}.grid3,.timeline,.pillars,.values-grid,.trust-points,.footer-grid{grid-template-columns:1fr}.trust-grid{gap:28px}.trust-points{gap:10px}.trust-point{padding:15px}.catalog-top,.catalog-details{grid-template-columns:1fr}.image-slot{min-height:220px}.catalog-intro{padding:25px}.catalog-details{padding:0 18px 18px}.form-grid{grid-template-columns:1fr}.form-card{padding:22px}.cta-band .container{align-items:flex-start;flex-direction:column}.footer-bottom{flex-direction:column}}
+    /* Keep the longer English headline spacious and fully visible. */
+    html[lang="en"] .hero{height:auto;min-height:min(82vh,850px)}
+    html[lang="en"] .hero-content{padding-top:clamp(76px,8vw,110px);padding-bottom:clamp(110px,10vw,145px);min-width:0}
+    html[lang="en"] .hero h1{max-width:min(1050px,100%);font-size:clamp(40px,4.7vw,68px);line-height:1.12;overflow-wrap:normal}
+    html[lang="en"] .hero p{max-width:700px}
+    @media (min-width:701px) and (max-width:1050px){html[lang="en"] .navrow{gap:14px}html[lang="en"] .nav{gap:14px}html[lang="en"] .nav a{font-size:11px}html[lang="en"] .brand-name{font-size:12px;max-width:190px}html[lang="en"] .hero h1{font-size:clamp(39px,4.6vw,52px)}}
+    @media (max-width:700px){html[lang="en"] .hero{min-height:630px}html[lang="en"] .hero-content{padding:88px 0 110px}html[lang="en"] .hero h1{font-size:clamp(35px,8.3vw,53px);max-width:100%}html[lang="en"] .hero-actions{align-items:flex-start}}
   </style>
   <script src="/_sdk/3113329134725a95.data_sdk.js" type="text/javascript" integrity="sha512-uIVvSrs96J0aKs+ab+p3+iCIeXz5Uv/5udQ8FBTDggDPfGd9Fz/31fsuHi/YbKf0oOg+2Sd5BnrogNSdq0ZVBA=="></script>
   <script src="/_sdk/3c884c534998ebc4.editing_sdk.js" type="text/javascript" integrity="sha512-Zc9VBwr5RSFvMKm4eGTIQfrtGBvQ//d/i6V36shMDBqooxbXa7xDMk0W0XTZnOzVvvUXflMtSvqHSFFpDPEU2Q=="></script>
   <script src="/_sdk/4c94642499997388.resizing_sdk.js" type="text/javascript" integrity="sha512-ZJzt6x5lphhtOGk5zukB4TRH9Kf9jkIl8xB5v5J/SR7ka6doiKh4nKBRUFUfrAt7XLI9OB+XLS+Yb8NNeOUHKQ=="></script>
  </head>
- <body>
-  <a class="skip canva-link" href="#main" data-i18n="skip">Saltar al contenido</a>
+ <body><a class="skip canva-link" href="#main" data-i18n="skip">Saltar al contenido</a>
   <header class="header canva-header">
-   <div class="container navrow">
-    <a class="brand canva-link" href="#/" aria-label="Inversiones e Ingeniería M&amp;G C.A."><!-- Enlace original del logo: https://imgur.com/KyTd5s5 --><img id="company-logo" class="canva-image brand-logo" src="https://i.imgur.com/KyTd5s5.png" alt="Logotipo de Inversiones e Ingeniería M&amp;G C.A." loading="lazy" onerror="this.hidden=true;this.nextElementSibling.hidden=false"><span class="brand-mark" hidden aria-label="M&amp;G">M</span><span class="brand-name">Inversiones e Ingeniería M&amp;G C.A.</span></a>
-    <nav id="main-nav" class="nav canva-menu" aria-label="Navegación principal">
-     <a href="#/" data-route="home" data-i18n="navHome">Inicio</a> <a href="#/nosotros" data-route="about" data-i18n="navAbout">Nosotros</a> <a href="#/servicios" data-route="services" data-i18n="navServices">Servicios</a> <a href="#/contacto" data-route="contact" data-i18n="navContact">Contacto</a>
+   <div class="container navrow"><a class="brand canva-link" href="#/" aria-label="Inversiones e Ingeniería M&amp;G C.A."><!-- Enlace original del logo: https://imgur.com/KyTd5s5 --><img id="company-logo" class="canva-image brand-logo" src="https://i.imgur.com/KyTd5s5.png" alt="Logotipo de Inversiones e Ingeniería M&amp;G C.A." loading="lazy" onerror="this.hidden=true;this.nextElementSibling.hidden=false"><span class="brand-mark" hidden aria-label="M&amp;G">M</span><span class="brand-name">Inversiones e Ingeniería M&amp;G C.A.</span></a>
+    <nav id="main-nav" class="nav canva-menu" aria-label="Navegación principal"><a href="#/" data-route="home" data-i18n="navHome">Inicio</a> <a href="#/nosotros" data-route="about" data-i18n="navAbout">Nosotros</a> <a href="#/servicios" data-route="services" data-i18n="navServices">Servicios</a> <a href="#/contacto" data-route="contact" data-i18n="navContact">Contacto</a>
     </nav>
-    <div class="language canva-tabs" aria-label="Idioma"><button id="lang-es" type="button" class="selected" aria-pressed="true">ES</button><button id="lang-en" type="button" aria-pressed="false">EN</button>
+    <div class="language canva-tabs" aria-label="Idioma">
+     <button id="lang-es" type="button" class="selected" aria-pressed="true">ES</button><button id="lang-en" type="button" aria-pressed="false">EN</button>
     </div><button id="menu-toggle" class="menu-toggle canva-button" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="main-nav">
-     <svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h16" />
+     <svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M4 6h16M4 12h16M4 18h16" />
      </svg></button>
    </div>
   </header>
@@ -39,8 +45,7 @@
    <div class="container">
     <div class="footer-grid">
      <div>
-      <div class="footer-logo-wrap">
-       <!-- Enlace original del logo: https://imgur.com/KyTd5s5 --><img id="footer-company-logo" class="canva-image footer-logo" src="https://i.imgur.com/KyTd5s5.png" alt="Logotipo de Inversiones e Ingeniería M&amp;G C.A." loading="lazy" onerror="this.hidden=true;this.nextElementSibling.hidden=false"><span class="brand-mark footer-fallback" hidden aria-label="M&amp;G">M</span>
+      <div class="footer-logo-wrap"><!-- Enlace original del logo: https://imgur.com/KyTd5s5 --><img id="footer-company-logo" class="canva-image footer-logo" src="https://i.imgur.com/KyTd5s5.png" alt="Logotipo de Inversiones e Ingeniería M&amp;G C.A." loading="lazy" onerror="this.hidden=true;this.nextElementSibling.hidden=false"><span class="brand-mark footer-fallback" hidden aria-label="M&amp;G">M</span>
       </div>
       <h3>Inversiones e Ingeniería M&amp;G C.A.</h3>
       <p data-i18n="footerDesc">Soluciones técnicas integrales de ingeniería, construcción y suministros desde 2017.</p>
@@ -48,7 +53,8 @@
      </div>
      <div>
       <h3 data-i18n="quickLinks">Enlaces rápidos</h3>
-      <nav class="footer-links canva-menu" aria-label="Enlaces del pie"><a href="#/" data-i18n="navHome">Inicio</a><a href="#/nosotros" data-i18n="navAbout">Nosotros</a><a href="#/servicios" data-i18n="navServices">Servicios</a><a href="#/contacto" data-i18n="navContact">Contacto</a>
+      <nav class="footer-links canva-menu" aria-label="Enlaces del pie">
+       <a href="#/" data-i18n="navHome">Inicio</a><a href="#/nosotros" data-i18n="navAbout">Nosotros</a><a href="#/servicios" data-i18n="navServices">Servicios</a><a href="#/contacto" data-i18n="navContact">Contacto</a>
       </nav>
      </div>
      <div>
@@ -57,7 +63,8 @@
       <p><strong data-i18n="office">Oficina Comercial:</strong> <span data-i18n="officeAddress">Calle San Carlos, Centro Comercial Gold Country, Piso 1, Oficina N.º A-2, Barcelona, Estado Anzoátegui, Venezuela.</span></p>
      </div>
     </div>
-    <div class="footer-bottom"><span>© <span id="year"></span> Inversiones e Ingeniería M&amp;G C.A.</span><span data-i18n="footerTag">Compromiso técnico. Respuestas precisas.</span>
+    <div class="footer-bottom">
+     <span>© <span id="year"></span> Inversiones e Ingeniería M&amp;G C.A.</span><span data-i18n="footerTag">Compromiso técnico. Respuestas precisas.</span>
     </div>
    </div>
   </footer>
@@ -67,7 +74,8 @@
      Hablemos de su proyecto
     </div><a id="wa-appointment" class="canva-link" href="https://wa.me/584129401545?text=Hola%2C%20quisiera%20acordar%20una%20cita." target="_blank" rel="noopener noreferrer" data-i18n="waAppointment">Acordar una cita ↗</a><a id="wa-quote" class="canva-link" href="https://wa.me/584129401545?text=Hola%2C%20quisiera%20solicitar%20un%20presupuesto." target="_blank" rel="noopener noreferrer" data-i18n="waQuote">Solicitar presupuesto ↗</a>
    </div><button id="wa-toggle" class="wa-button canva-button" type="button" aria-label="Abrir opciones de WhatsApp" aria-expanded="false" aria-controls="wa-panel">
-    <svg viewbox="0 0 32 32" aria-hidden="true"><path d="M16.01 2.4A13.56 13.56 0 0 0 4.4 23l-1.8 6.6 6.75-1.77A13.6 13.6 0 1 0 16.01 2.4Zm0 24.7a11.1 11.1 0 0 1-5.65-1.55l-.4-.24-4 .99 1.05-3.88-.26-.42a11.17 11.17 0 1 1 9.26 5.1Zm6.13-8.33c-.34-.17-2.02-1-2.33-1.1-.31-.12-.54-.17-.77.17-.23.34-.88 1.1-1.08 1.32-.2.23-.4.26-.74.09-.34-.17-1.43-.53-2.73-1.69-1.01-.9-1.69-2.01-1.89-2.35-.2-.34-.02-.52.15-.69.15-.15.34-.4.51-.6.17-.2.23-.34.34-.57.11-.23.06-.43-.03-.6-.08-.17-.77-1.85-1.06-2.53-.28-.66-.56-.57-.77-.58h-.66c-.23 0-.6.08-.91.43-.31.34-1.2 1.17-1.2 2.85s1.23 3.31 1.4 3.54c.17.23 2.42 3.69 5.86 5.17.82.35 1.46.56 1.96.72.82.26 1.56.22 2.15.13.66-.1 2.02-.83 2.3-1.63.28-.8.28-1.49.2-1.63-.09-.14-.31-.23-.65-.4Z" />
+    <svg viewbox="0 0 32 32" aria-hidden="true">
+     <path d="M16.01 2.4A13.56 13.56 0 0 0 4.4 23l-1.8 6.6 6.75-1.77A13.6 13.6 0 1 0 16.01 2.4Zm0 24.7a11.1 11.1 0 0 1-5.65-1.55l-.4-.24-4 .99 1.05-3.88-.26-.42a11.17 11.17 0 1 1 9.26 5.1Zm6.13-8.33c-.34-.17-2.02-1-2.33-1.1-.31-.12-.54-.17-.77.17-.23.34-.88 1.1-1.08 1.32-.2.23-.4.26-.74.09-.34-.17-1.43-.53-2.73-1.69-1.01-.9-1.69-2.01-1.89-2.35-.2-.34-.02-.52.15-.69.15-.15.34-.4.51-.6.17-.2.23-.34.34-.57.11-.23.06-.43-.03-.6-.08-.17-.77-1.85-1.06-2.53-.28-.66-.56-.57-.77-.58h-.66c-.23 0-.6.08-.91.43-.31.34-1.2 1.17-1.2 2.85s1.23 3.31 1.4 3.54c.17.23 2.42 3.69 5.86 5.17.82.35 1.46.56 1.96.72.82.26 1.56.22 2.15.13.66-.1 2.02-.83 2.3-1.63.28-.8.28-1.49.2-1.63-.09-.14-.31-.23-.65-.4Z" />
     </svg></button>
   </div>
   <script>
